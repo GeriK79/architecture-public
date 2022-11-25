@@ -81,7 +81,7 @@ docker run -d -p27017:27017 --name locations-mongo mongo
 Parancssoros kliens elindítása:
 
 ```shell
-docker exec -it locations-mongo mongo locations
+docker exec -it locations-mongo mongosh locations
 ```
 
 Parancsok:
